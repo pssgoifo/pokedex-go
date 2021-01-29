@@ -1,5 +1,3 @@
-![CI/CD](https://github.com/pssgoifo/pokedex-go/workflows/CI/CD/badge.svg)
-
 # POKÉDEX GO 
 
 
