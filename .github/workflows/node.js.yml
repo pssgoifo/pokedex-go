@@ -39,7 +39,7 @@ jobs:
     #needs:
     #- test
     env:
-      IMAGE_TAG: ${IMAGE_REPOSITORY}:sha-${GITHUB_SHA::7}
+      IMAGE_TAG: ${{ env.IMAGE_REPOSITORY }}:sha-${{ env.GITHUB_SHA::7 }}
     steps:
     # Check out source code.
     - name: Check out source code
