@@ -3,7 +3,8 @@
 
 name: CI/CD
 
-IMAGE_REPOSITORY: osgoifo/pokedex-go
+env:
+  IMAGE_REPOSITORY: osgoifo/pokedex-go
 
 on:
   push:
