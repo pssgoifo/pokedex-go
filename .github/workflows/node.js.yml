@@ -70,4 +70,5 @@ jobs:
         push: true
         tags: |
           ${{ env.IMAGE_REPOSITORY }}:latest
+          ${{ env.IMAGE_REPOSITORY }}:$GITHUB_SHA
 
