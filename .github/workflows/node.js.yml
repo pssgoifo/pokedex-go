@@ -35,8 +35,8 @@ jobs:
        
   build-and-release:
     runs-on: [self-hosted, linux, X64]
-    needs:
-    - unit_tests
+    #needs:
+    #- unit_tests
     steps:
     # Check out source code.
     - name: Check out source code
@@ -70,4 +70,4 @@ jobs:
         push: true
         tags: |
           ${{ env.IMAGE_REPOSITORY }}:latest
-          ${{ env.IMAGE_REPOSITORY }}:sha-${GITHUB_SHA::7}
+          ${{ env.IMAGE_REPOSITORY }}:sha-${{GITHUB_SHA::7}}
