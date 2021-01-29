@@ -5,7 +5,7 @@ name: CI/CD
 
 env:
   IMAGE_REPOSITORY: osgoifo/pokedex-go
-  SHORT_SHA: ${GITHUB_SHA::7}
+  SHORT_SHA: ${ GITHUB_SHA::7 }
 
 on:
   push:
