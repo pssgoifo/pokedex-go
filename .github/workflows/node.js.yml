@@ -36,8 +36,8 @@ jobs:
        
   build:
     runs-on: [self-hosted, linux, X64]
-    #needs:
-    #- test
+    needs:
+    - test
     steps:
     # Check out source code.
     - name: Check out source code
