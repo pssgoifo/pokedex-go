@@ -37,9 +37,9 @@ jobs:
   build:
     runs-on: [self-hosted, linux, X64]
     #needs:
-    #- unit_tests
+    #- test
     env:
-      IMAGE_TAG: ${{ env.IMAGE_REPOSITORY }}:sha-${GITHUB_SHA::7}
+      IMAGE_TAG: "${{ env.IMAGE_REPOSITORY }}:sha-${GITHUB_SHA::7}"
     steps:
     # Check out source code.
     - name: Check out source code
