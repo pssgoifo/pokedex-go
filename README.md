@@ -1,4 +1,4 @@
-# POKÉDEX GO 
+# POKÉDEX GO 
 
 
 [Facebook Messenger Bot](https://www.facebook.com/pokemondexgo) to get Pokémon infos like weaknesses easy and fast. All the infos a Pokémon trainer needs to take over the gyms in the wild.
@@ -7,13 +7,13 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 
 ![Bot in Action](https://gifyu.com/images/pokedex-go-1.0.gif)
 
-# Usage
+## Usage
 
 - **hi**: Introduction message
 - **help**: Introduction message
 - **anything else**: Lookup for that Pokémon
 
-# Progress
+## Progress
 
 - [x] pokemon (151/151)
 - [x] skills (122/122)
@@ -27,11 +27,11 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 - [x] fuzzy search for Pokémon à la "did you mean x?"
 - [ ] translate moves in different languages
 
-# Contribution
+## Contribution
 
 Ideas and Pull Requests welcome!
 
-# Privacy Policy
+## Privacy Policy
 
 This Bot will:
 
